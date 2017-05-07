@@ -1,0 +1,5 @@
+====== SMTP verificación ======
+
+Esta página le permite realizar el envío de un correo electrónico de prueba. Se puede utilizar para comprobar si se ha configurado el plugin SMTP correctamente.
+
+Ingrese a las direcciones de correo electrónico en el siguiente formulario.

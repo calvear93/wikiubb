@@ -1,0 +1,4 @@
+===== Subscripciones Deshabilitadas =====
+
+Las subscripciones de correo electrónico están desactivadas en este wiki. Revise [[doku>config:subscribers|subscribers]] y
+las opciones de configuración [[doku>config:disableactions|disableactions]].

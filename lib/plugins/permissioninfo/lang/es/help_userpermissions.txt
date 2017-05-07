@@ -1,0 +1,2 @@
+Esta página muestra los permisos para un solo usuario. Los permisos de página se muestran en
+//Cursiva//, los permisos que fueron asignados de forma individual para el usuario, se muestran en color.

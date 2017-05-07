@@ -1,0 +1,4 @@
+====== Administración de Subscripciones ======
+
+Esta herramienta le permite definir reglas para añadir automáticamente las suscripciones de correo electrónico para los usuarios y grupos. Cuando se añade una nueva regla, se aplica automáticamente a todos los usuarios que coinciden. Todas las reglas existentes se aplican automáticamente a todos los usuarios recién creados.
+

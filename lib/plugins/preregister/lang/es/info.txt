@@ -1,0 +1,7 @@
+====Info====
+Si desea eliminar los elementos de la lista del archivo de datos, haga clic en el botón "Confirmar eliminacion". La columna "Edad" es la longitud máxima de tiempo que la entrada tiene en el archivo de datos.
+
+Wiki UBB lo guarda como archivos legibles por todos. El botón "Fichero de datos seguro" cambia eso para que el archivo de datos sea sólo de leído por el servidor web, si su servidor web es compatible con esta característica.
+
+
+

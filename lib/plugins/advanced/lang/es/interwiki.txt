@@ -1,0 +1,33 @@
+==== Vínculos InterWiki ====
+
+La idea original de InterWiki era tener una gran Wiki distribuidos en toda la Internet. Hoy en día es más de una manera fácil de enlazar de una wiki a otro al tener una sintaxis simple para llevar a cabo de modo.
+
+En WikiUBB esto se hace con el prefijo del nombre de la página Wiki con un acceso directo separados por un carácter ''> '' (por ej. ''<nowiki>[[wp>InterWiki]]</nowiki>'').
+
+El formato del archivo de configuración interwiki es:
+
+  <acceso rápido>      <url a wiki>
+
+El acceso directo es el que usted será capaz de utilizar en el enlace más tarde. En la URL puede utilizar algunos marcadores de posición para ser más flexible en la vinculación. Si no hay ningún marcador de posición el código [[phpfn>rawurlencode|URL-encoded]] NombreWiki se añade a la URL. Los siguientes marcadores de posición están disponibles:
+
+^ Marcador de posición  ^  Reemplazado por                                                                          ^
+| {URL}                   | Codificación URL del nombre de la wiki (la parte que se adjunta a la dirección URL en interwiki.local.conf)  |
+| {NAME}                  | nombre de la wiki sin ningún tipo de codificación                                                        |
+| {SCHEME}                | parte del esquema si una URL fue dada como un nombre de la wiki                                           |
+| {HOST}                  | parte del host si una URL fue dada como un nombre de la wiki                                             |
+| {PORT}                  | parte del puerto si una URL fue dada como un nombre de la wiki                                             |
+| {PATH}                  | parte de la ruta si una URL fue dada como un nombre de la wiki                                             |
+| {QUERY}                 | parte de la consulta si una URL fue dada como un nombre de la wiki                                            |
+
+Si no se define un marcador de posición el nombre de la URL codificada se añade a la URL.
+
+=== Ejemplo para interwiki.conf ===
+
+<code>
+wp        https://en.wikipedia.org/wiki/{NAME}
+doku      https://www.dokuwiki.org/
+user      :user:{NAME}
+</code>
+
+=== Vea además ===
+  * [[doku>interwiki]]

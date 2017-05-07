@@ -1,0 +1,3 @@
+===== Falta Capacidad de Autenticación =====
+
+El motor de autenticación actualmente en uso no permite recuperar una lista de usuarios dentro de un grupo determinado. Se necesita esta funcionalidad para este plugin. Tal vez su sistema de autentificación necesita una configuración adicional, tal vez simplemente no es compatible.

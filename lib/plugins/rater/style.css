@@ -1,0 +1,126 @@
+/** * Design Elements - additional  CSS for the rater plugin * * @author Taggic <taggic@t-online.de> */
+/* ----- General Elements ---------- */
+.thumb__negative_feedback {
+	border:            1px red solid;
+	background-color:        #FFB5B5;
+	margin:                      0px;
+	padding:                    10px;
+	width:                       35%;
+	border-radius:             0.5em;
+}
+.thumb__positive_feedback {
+	border:          1px green solid;
+	background-color:     lightgreen;
+	margin:                      0px;
+	padding:                    10px;
+	width:                       35%;
+	border-radius:             0.5em;
+}
+.thumb__standard_feedback {
+	border:         1px black solid;
+	background-color:       #DBDBDB;
+	padding:                    3px;
+  padding-left:            0.45em;
+	width:                      89%;
+	border-radius:            0.5em;
+}
+
+ .thumbup {
+	width: 18px;
+	height: 18px;
+	display: inline-block;
+	margin: 0 auto;
+	vertical-align:bottom;
+	border:none;
+}
+.tup {background: url(img/thumbup_hover.gif) no-repeat;}
+.thumbup:hover {background-position: 0 -18px;}
+
+ .thumbdown {
+	width: 18px;
+	height: 18px;
+	display: inline-block;
+	margin: 0 auto;
+	vertical-align:bottom;
+	border:none;
+}
+.tdn {background: url(img/thumbdown_hover.gif) no-repeat;}
+.thumbdown:hover {background-position: 0 -18px;}
+
+.rating__details {
+	border:        1px #BDBEC1 solid;
+	font-size:                0.85em;
+	text-align:                right;
+	background-color:        #d8d8d8;
+	padding-right:              10px;
+	padding-left:               10px;
+	margin-left:              0.75em;
+	margin-right:             0.75em;
+	border-radius:               5px;
+	box-shadow:         3px 3px #666;
+}
+
+.rating_stat_table {
+	border:        1px #BDBEC1 solid;
+  border-collapse:        collapse;
+	font-size:                0.85em;
+	text-align:                right;
+	background-color:        #F8F8F8;
+	padding-right:              10px;
+	padding-left:               10px;
+	margin-left:              0.75em;
+	margin-right:             0.75em;
+	border-radius:               5px;
+	box-shadow:         3px 3px 10px #666 !important;
+}
+
+.rater_div_details {
+  display : none;
+  text-align: right;
+  padding-right:5px;
+}
+
+.rating_stat_tr  {
+  border:     1px solid __border__;
+}
+
+.rating_stat_th  {
+  padding:                     3px;
+  border:     1px solid __border__;
+  background-color: __tbl_header_background__;
+  color:      __tbl_header_color__;
+  text-align:                 left;
+}
+
+.rating_stat_td_col0 {
+  padding:                     3px;
+	text-align:               center;
+  border:     1px solid __border__;
+  vertical-align:           middle;
+}
+
+.rating_stat_td_col1 {
+  padding:                     3px;
+	text-align:                 left;
+  border:     1px solid __border__;
+  vertical-align:           middle;
+}
+
+.rating_stat_td_col2 {
+  padding:                     3px;
+	text-align:               center;
+  border:     1px solid __border__;
+  vertical-align:           middle;
+}
+
+.rating_stat_td_col3 {
+  padding:                     3px;
+	text-align:                 left;
+  border:     1px solid __border__;
+  vertical-align:           middle;
+}
+
+.rater_item, .rater_rating, .rater_img {
+  border: none !important;
+  text-align: center;
+}

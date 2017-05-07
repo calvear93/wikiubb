@@ -1,0 +1,10 @@
+===== Cristopher Alvear (crawis) - Espacio Privado =====
+Este espacio de nombres ''//user:crawis:crawis://'' y su contenido (páginas, imágenes, ...) esta **reservado para su uso privado** (sólo administradores pueden acceder a él)...
+  * Para crear una página dentro de este espacio, use el enlace común en la barra de navegación o la sintaxis de la wiki __sin un espacio de nombres__ :
+<code>[[ejemplo página 1]]
+[[ejemplo 2|Mi página de ejemplo 2]]</code>
+  * Para crear un sub-espacio de nombres, simplemente indique la posición completa de la nueva página :
+<code>[[user:crawis:crawis:<sub-espacio_de_nombres_a_crear>:ejemplo 3]]</code>
+
+Siéntase libre para eliminar este párrafo (bajo el título)...\\
+Ahora, ¡escriba algo! :-D

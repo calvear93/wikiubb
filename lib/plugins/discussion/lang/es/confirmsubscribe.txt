@@ -1,0 +1,10 @@
+¡Hola!
+
+Esta a punto de suscribirse a los comentarios de la página @PAGE@ en la wiki @TITLE@.
+
+Para confirmar su suscripción, siga los siguientes enlaces:
+@SUBSCRIBE@
+
+--
+Este correo electrónico fue generado por WikiUBB en:
+@DOKUWIKIURL@

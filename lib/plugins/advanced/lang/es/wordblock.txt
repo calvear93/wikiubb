@@ -1,0 +1,8 @@
+==== Blacklisting ====
+
+El Internet es un lugar inseguro. Todo lo bueno se corrompe y lo mismo ocurre con los Wikis. WikiSpam, al igual que el spam en blogs y correo electrónico, va en aumento. Si utiliza WikiUBB en su Intranet esto no es un problema para usted. Pero si la intención de usarlo en la Internet abierta es posible que desee a la lista negra algunas palabras de spam conocidas.
+
+=== Vea además ===
+  * [[doku>blacklist]]
+  * [[https://meta.wikimedia.org/wiki/Spam_blacklist|Spam blacklist - Meta-Wiki - Wikimedia]]
+

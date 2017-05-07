@@ -1,0 +1,11 @@
+En esta vista se puede ver los permisos para cada grupo y los usuarios de cada
+grupo.
+
+Si pasas el cursor sobre un nombre de usuario se puede ver su nombre de inicio de sesión.
+
+Los usuarios que tienen permisos individuales se destacan.
+
+Si hace clic en un nombre de usuario puede ver los permissios individuales para el usuario,
+derivado de la ACL para los grupos que el usuario pertenece y de los permisos individuales
+dado al usuario con el ACL.
+

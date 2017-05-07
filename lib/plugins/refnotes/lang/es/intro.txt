@@ -1,0 +1,15 @@
+====== Configuración de Referencias ======
+
+En esta página se modifican los parámetros de configuración utilizados por [[doku>plugin:refnotes|RefNotes]]. Hay tres secciones que muestran los valores relacionados con el grupo:
+
+  * **Ajustes Generales**
+    * //Use la sintaxis de pie de página// --- si está activado el plugin RefNotes se podrá usar las notas al pie de página nativas junto con la propia sintaxis del plugin.
+    * //Habilitar referencia a base de datos// --- si está acticado el plugin cargará las notas predefinidas desde la [[doku>plugin:refnotes:refdb|base de datos]].
+    * //Referencia del espacio de nombres a la base de datos// --- Espacio de nombres para referencia a la base de datos.
+  * **Espacio de Nombres** --- en esta sección puede especificar el estilo para determinados espacios de nombres. Para una explicación detallada de cada estilo vea [[doku>plugin:refnotes:style|style reference]].
+  * **Notas** --- esta sección es usada para definir notas usadas comunmente.
+    * //En Línea// --- especifica si el texto de la nota debe ser [[doku>plugin:refnotes:syntax#inline_notes|en línea]]. Para notas en línea se puede configurar si diferentes estilos de referencia se aplican o no.
+
+La configuración que se muestra sobre un fondo azul son los valores por defecto. En la configuración de la sección //Espacio de Nombres// que se muestran sobre un fondo verde se heredan de los espacios de nombres padres.
+
+Recuerde pulsar el botón **Guardar** en la parte inferior de esta página antes de salir de lo contrario los cambios se perderán.

@@ -1,0 +1,7 @@
+base   csstimeline
+author Andreas Boehler
+email  dev@aboehler.at
+date   2015-03-11
+name   csstimeline plugin
+desc   Create a CSS-only timeline; CSS is from http://nilswe.com/lab/css-timeline/
+url    http://www.aboehler.at

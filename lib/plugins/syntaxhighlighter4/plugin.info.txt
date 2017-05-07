@@ -1,0 +1,7 @@
+base   syntaxhighlighter4
+author Cr@zy
+email  webmaster@crazyws.fr
+date   2016-06-19
+name   SyntaxHighlighter4 Plugin
+desc   Alternative to GeSHi server-side code highlighting with client-side SyntaxHighlighter 4 by Alex Gorbatchev
+url    http://www.dokuwiki.org/plugin:syntaxhighlighter4

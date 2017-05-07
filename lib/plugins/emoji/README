@@ -1,0 +1,16 @@
+Emoji substitution plugin for DokuWiki
+
+Allows emoji characters or shortcut names to be inserted into wiki pages. The
+shortcut names will be converted to Unicode when the page is rendered.
+
+To insert a smiling face, you can:
+  - Copy the Unicode character, 😄
+  - Type a shortname, :smile:
+  - Type an emoticon, :-)
+
+To avoid unintended substitution, short names and emoticons should be separated
+from other text with spaces.
+
+Emoji short names can be found at http://emoji.codes
+
+This plugin uses the Emoji One artwork and PHP class. http://emojione.com

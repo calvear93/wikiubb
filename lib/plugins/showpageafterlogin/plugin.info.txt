@@ -1,0 +1,7 @@
+base   showpageafterlogin
+author Sam B.
+email  sam@s-blu.de
+date   2016-02-14
+name   showpageafterlogin plugin
+desc   Redirects the user to a configureable page after login
+url    https://www.dokuwiki.org/plugin:showpageafterlogin

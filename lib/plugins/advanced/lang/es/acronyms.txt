@@ -1,0 +1,14 @@
+==== Abreviaturas y Acrónimos ====
+
+WikiUBB puede marcar abreviaturas y acrónimos (terminología) de forma automática. Puede colocar el ratón sobre una abreviatura para ver una breve explicación, se muestra como ayuda. Por ejemplo, si el ratón se posiciona sobre "CMS" (que está incluido en la lista de acrónimos predeterminado), la información de herramientas muestra el contenido del sistema de gestión.
+
+=== Ejemplo para acronyms.conf ===
+
+<code>
+CMS          Content Management System
+CSS          Cascading Style Sheets
+HTML         HyperText Markup Language
+</code>
+
+=== Vea además ===
+  * [[doku>abbreviations]]

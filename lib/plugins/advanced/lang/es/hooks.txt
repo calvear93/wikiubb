@@ -1,0 +1,17 @@
+==== Include Hooks ====
+
+Incluyen hooks que le permiten agregar HTML o PHP adicional a la plantilla sin modificar ninguno de los archivos de plantilla en sí, lo que son seguras para realizar una actualización. Ya no es necesario crear el archivo correspondiente, ya sea en el directorio de plantillas (''lib/tpl/<template>/'') o en su ''conf/'' directory.
+
+=== Hooks disponibles ===
+
+^ Nombre del fichero     ^ Posición de HTML incluido                                                ^
+| ''meta.html''          | Dentro de la etiqueta <head>, utilice esta opción para añadir estilos adicionales o metaheaders |
+| ''sidebarheader.html'' | En la parte superior de la barra lateral (si existe) |
+| ''sidebarfooter.html'' | En la parte inferior de la barra lateral (si existe) |
+| ''pageheader.html''    | En la parte superior dentro de la caja de contenido, sobre el contenido |
+| ''pagefooter.html''    | En la parte inferior dentro de la caja de contenido, a continuación |
+| ''header.html''        | En la parte superior de la página, sobre el logo y el título |
+| ''footer.html''        | Al final de la página, después de todo el contenido de la página |
+
+=== Vea además ===
+  * [[doku>template:dokuwiki]]

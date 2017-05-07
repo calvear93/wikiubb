@@ -1,0 +1,2 @@
+Los espacios de nombres se especifican mediante dos puntos de salida: ''algo:espacio_de_nombre:'' \\
+Los grupos se especifican con un @ al principio: ''@group'' - múltiples usuarios o grupos se especifican separados por coma.

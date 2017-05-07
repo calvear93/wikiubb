@@ -1,0 +1,20 @@
+==== MIME Types ====
+
+Los tipos de archivos que se pueden cargar a través de la ventana emergente del administrador de ficheros multimedia se configura a través de ''conf/mime.conf''. Los tipos MIME adicionales deben ser añadidos en ''mime.local.conf''. El archivo espera una extensión (sin el punto) y un tipo de MIME. Anteponiendo el tipo mime con un signo de admiración (!) Forzará al navegador para presentar un diálogo de descarga, incluso si existe un plugin para el navegador para el archivo en cuestión.
+
+=== Ejemplo de mime.conf ===
+
+<code>
+# debería reproducirse en el navegador (si está soportado):
+wav         audio/wav
+
+# debería ser descargado
+wav         !audio/wav
+</code>
+
+Los iconos se pueden agregar mediante la colocación de un archivo de imagen (PNG o GIF) el nombre de la extensión de archivo en ''lib/images/fileicons/''.
+
+**Nota:** debido a que la hoja de estilo utilizada para la asignación de los iconos se almacena en caché necesita forzar una reconstrucción tocando uno de los archivos de configuración.
+
+=== Vea además ===
+  * [[doku>mime]]

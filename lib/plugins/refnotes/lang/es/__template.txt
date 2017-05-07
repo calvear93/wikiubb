@@ -1,0 +1,82 @@
+====== Referencias ======
+
+En esta página se puede definir notas de uso común para [[doku>plugin:refnotes|RefNotes]]. Cada nota se define como una colección de datos //campos//. Hay varias de maneras de organizar las definiciones de nota:
+
+  * Agrupar una serie de notas en una sola tabla de datos (//hoja//). La primera fila de la tabla se utiliza para especificar qué campo contiene la columna correspondiente.
+  * use tablas separadas para cada nota (//tarjeta//). La tabla debería tener 2 columnas, donde la primera es usada para especificar los nombres.
+  * Defina notas usando la sintaxis [[wp>BibTeX]]. Las entradas BibTeX tiene que encapsularse en una sección de código ''<code>''. La clave de entrada de BibTeX sirve como nombre de la nota. El espacio de nombres se puede especificar ya sea como parte de la clave o en un comentario aparte (véase el ejemplo a continuación) para todas las entradas que siguen.
+  * Almacene una nota por entrada en cada página, véase [[doku>plugin:data|plugin de datos]]. De esta manera las notas se almacenan en una base de datos, lo que permite hacer consultas en los datos bibliográficos, por ejemplo, ver todos los libros de un determinado autor. Desafortunadamente el plugin de datos permite sólo una sección de ''entrada de datos'' por página.
+
+Para las hojas y tarjetas el plugin no hace una distinción entre las celdas normales de la tabla y las celdas de encabezado. Las celdas de nombre de campo sólo se identifican en función de su contenido. Los nombres son sensibles a mayúsculas y también pueden ser especificados usando etiquetas específicas de configuración regional. BibTeX y las secciones de ''entrada de datos'' soportan sólo campos de nombres. La lista completa de los nombres de campo se proporciona en la [[doku>plugin:refnotes:refdb|documentación de referencia a base de datos]].
+
+
+===== Hoja de notas =====
+
+^  Note name  ^  Note text  ^
+^ :ref:sample1 | A sample reference. |
+^ :ref:sample2 | A sample reference with //some// **formatting**. |
+^ :ref:sample3 | A sample reference with a [[http://www.dokuwiki.org/|link.]] |
+
+
+===== Tarjeta de notas =====
+
+^ Note name ^  :ref:knuth-aop-2  ^
+^ Author    | Donald Knuth |
+^ Title     | The Art of Computer Programming, Volume 2: Seminumerical Algorithms |
+^ Edition   | Third Edition |
+^ Published | 1997 |
+^ Publisher | Addison-Wesley |
+^ Pages     | xiv + 762 pp. |
+^ ISBN      | 0-201-89684-2 |
+^ URL       | http://en.wikipedia.org/wiki/The_Art_of_Computer_Programming |
+
+
+===== BibTeX =====
+
+<code bibtex>
+@Comment{refnotes,
+  namespace = "ref:prog"
+}
+
+@Book{GangOfFour,
+  author     = "Erich {Gamma} and Richard {Helm} and Ralph {Johnson} and John {Vlissides}",
+  author-ref = "Gamma, et al.",
+  title      = "Design Patterns: Elements of Reusable Object-Oriented Software",
+  publisher  = "Addison-Wesley",
+  year       = 1994,
+  address    = "Reading, Mass.",
+  pages      = 395,
+  isbn       = "0-201-63361-2",
+  url        = "http://en.wikipedia.org/wiki/Design_Patterns"
+}
+
+@Article{:ref:Knuth-LCE-1985,
+  author    = "Donald Knuth",
+  title     = "Deciphering a linear congruential encryption",
+  journal   = "IEEE Transactions on Information Theory",
+  volume    = "31(1)",
+  year      = 1985,
+  month     = "Jan",
+  publisher = "IEEE",
+  pages     = "49-52",
+  issn      = "0018-9448",
+  url       = "http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=1056997"
+}
+</code>
+
+===== Dataentry =====
+
+la entrada de datos debajo está envuelta en una seción de código ''<code>'' de manera de ser correctamente presentada en ausencia del [[doku>plugin:data|plugin de datos]].
+
+<code>
+---- dataentry refnotes ----
+note-name : :ref:prog:Hunt&Thomas(1999)
+authors   : Andrew Hunt, David Thomas
+title     : The Pragmatic Programmer: From Journeyman to Master
+published : 1999
+publisher : Addison-Wesley Professional
+pages     : 352
+isbn      : 0-201-61622-X
+url       : http://en.wikipedia.org/wiki/The_Pragmatic_Programmer
+----
+</code>

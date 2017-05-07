@@ -1,0 +1,12 @@
+==== Emoticonos ====
+
+WikiUBB puede convertir emoticonos/emojis de texto a su forma gráfica equivalente. Las imágenes de los emoticonos por defecto se almacenan en ''lib/images/smileys/'' y se configuran en el archivo ''conf/smileys.conf''. El directorio local y actualización de seguridad de los emoticonos e imágenes se almacenan en ''lib/images/smileys/local'' y configurado en el ''conf/smiles.local.conf''.
+
+=== Ejemplo de smileys.conf ===
+
+<code>
+:MYFACE:                local/i_am_so_pretty.jpg
+</code>
+
+=== Vea además ===
+  * [[doku>smileys]]

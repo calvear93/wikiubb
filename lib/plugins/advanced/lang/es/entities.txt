@@ -1,0 +1,14 @@
+===== Entidades =====
+
+WikiUBB puede sustituir ciertos caracteres o cadenas con otras cadenas basado en un archivo de configuración. Por defecto, esta se utiliza para convertir diversas combinaciones de caracteres a su equivalente tipográfico.
+
+=== Ejemplo para entities.conf ===
+
+<code>
+(c)    ©
+(tm)   ™
+(r)    ®
+</code>
+
+=== Vea además ===
+  * [[doku>entities]]

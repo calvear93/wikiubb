@@ -1,0 +1,14 @@
+==== URL Schemes ====
+
+WikiUBB permite enlazar a la URL externa, pero sólo con los protocolos conocidos.
+
+=== Ejemplo de scheme.conf ===
+
+<code>
+http
+https
+ftp
+</code>
+
+=== Vea además ===
+  * [[doku>urlschemes]]

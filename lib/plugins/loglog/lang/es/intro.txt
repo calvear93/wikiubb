@@ -1,0 +1,3 @@
+====== Estadísticas semanales: Inicios/Cierres de Sesión ======
+
+Esta pantalla muestra los inicios de sesión de usuario y todos los cierres de sesión durante los últimos 7 días. Puede utilizar los botones de navegación en la parte inferior de la pantalla para mostrar semanas anteriores.

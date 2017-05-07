@@ -1,0 +1,9 @@
+===== Cristopher Alvear (crawis) - Página Pública =====
+Esta es su página pública ''//user:crawis.txt//'', se ha creado con su nombre,  **puede ser leída por cualquiera, pero sólo puede ser editada por usted** (o un administrador)...
+  * Aquí puede presentarse, agregar enlaces a sus contribuciones en la wiki, contar una historia o presentar otros trabajos ;-)
+Reglas:
+  * No puede crear otra página en este espacio de nombres ''//user:crawis//''
+  * Sólo un administrador puede agregar una imagen.
+
+Siéntase libre para eliminar este párrafo (bajo el título)...\\
+Ahora, ¡escriba algo! :-D

@@ -1,0 +1,7 @@
+base  abbr
+name  Abbreviation Tooltip
+author Satoshi Sahara
+email  sahara.satoshi@gmail.com
+date   2015-09-25
+desc   abbr tag for abbreviation markup
+url    https://www.dokuwiki.org/plugin:abbr

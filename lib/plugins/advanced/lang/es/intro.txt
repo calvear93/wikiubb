@@ -1,0 +1,5 @@
+====== Configuración avanzada ======
+
+Utilice esta página para controlar la configuración avanzada de WikiUBB.
+
+Recuerde pulsar el botón **Guardar** antes de salir de esta página de lo contrario perderá los cambios.

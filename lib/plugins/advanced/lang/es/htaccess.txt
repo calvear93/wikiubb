@@ -1,0 +1,16 @@
+==== .htaccess ====
+
+Por defecto, WikiUBB no hace la reescritura de URL, lo que resulta en las direcciones URL como esta:
+
+<code>
+http://example.com/doku.php?id=page
+</code>
+
+Estas direcciones URL se consideran inadecuadas y no se indexan bien por algunos motores de búsqueda.
+
+La solución es permitir la reescritura de URL, que está desactivada por defecto.
+
+=== Vea además ===
+
+  * [[doku>rewrite]]
+  * [[doku>config:userewrite]]

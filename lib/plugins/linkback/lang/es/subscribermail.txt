@@ -1,0 +1,19 @@
+Hello!
+
+Un nuevo linkback se agregó a la página @PAGE@ en la wiki @TITLE@. Esta página puede ser encontrada en:
+@PAGEURL@
+
+Fecha:   @DATE@
+URL:    @URL@
+
+Extracto:
+--------------------------------------------------------
+@TEXT@
+--------------------------------------------------------
+
+Para darse de baja de este registro de página en la wiki haga clic el siguiente enlace:
+@UNSUBSCRIBE@
+
+--
+Este correo lo generó WikiUBB en la siguiente dirección
+@DOKUWIKIURL@

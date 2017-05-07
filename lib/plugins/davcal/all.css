@@ -1,0 +1,61 @@
+@import "fullcalendar-2.4.0/fullcalendar.less";
+@import "datetimepicker-2.4.5/jquery.datetimepicker.less";
+
+
+/* modal windows */
+#dw_davcal__edit,
+#dw_davcal__settings,
+#dw_davcal__confirm {
+    position: absolute;
+    background-color: #fff;
+    color: #000;
+    z-index: 20;
+    overflow: hidden;
+}
+
+#dw_davcal__edit .ui-dialog-content,
+#dw_davcal__confirm .ui-dialog-content,
+#dw_davcal__settings .ui-dialog-content, {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#dw_davcal__confirm {
+    position: absolute;
+    /*top: 50%;
+    left: 50%;
+    width: 300px;
+    height: 260px;
+    margin:-130px 0 0 -150px; */
+}
+
+#dw_davcal__edit,
+#dw_davcal__settings {
+    position: absolute;
+    /*top: 50%;
+    left: 50%;
+    width: 370px;
+    height: 300px;
+    margin:-175px 0 0 -150px; */
+}
+
+.dw_davcal__date {
+    width: 90px;
+}
+
+.dw_davcal__time {
+    width: 50px;
+}
+
+.dw_davcal__text {
+    width: 220px;
+}
+
+#dw_davcal__editevent_attachments td {
+    border: 0;
+    
+}
+
+#dokuwiki__pagetools {
+    z-index: 10;
+}

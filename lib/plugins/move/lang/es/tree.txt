@@ -1,0 +1,3 @@
+====== Gestor de Movimientos =====
+
+Esta interfaz permite organizar la estructura de directorios, páginas y ficheros multimedia mediante Arrastrar y Soltar.
